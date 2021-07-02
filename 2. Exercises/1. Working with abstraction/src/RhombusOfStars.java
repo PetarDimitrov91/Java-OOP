@@ -2,33 +2,24 @@ import java.util.Scanner;
 
 public class RhombusOfStars {
     public static void main(String[] args) {
-        //  Scanner console = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
+        int size = Integer.parseInt(console.nextLine());
 
-        int size = readInput();
-
-        String rhombusOfStars = buildRhombus0fStars(size);
-
-        printOutput(rhombusOfStars);
-
-    }
-
-    private static void printOutput(String rhombusOfStars) {
-        System.out.println(rhombusOfStars);
-    }
-
-    private static String buildRhombus0fStars(int size) {
-        StringBuilder out = new StringBuilder();
-        for (int r = 0; r <= size; r++) {
-            out.append(printLine(size -r,r)).append(System.lineSeparator());
+        for (int starCount = 1; starCount <= size; starCount++) {
+            printRow(size, starCount);
         }
-        return out.toString();
+        for (int starCount = size - 1; starCount >= 1; starCount--) {
+            printRow(size, starCount);
+        }
     }
 
-    private static String printLine(int spaces, int stars) {
-return null;
-    }
-
-    private static int readInput() {
-        return Integer.parseInt(new Scanner(System.in).nextLine());
+    private static void printRow(int size, int starCount) {
+        for (int i = 0; i < size - starCount; i++) {
+            System.out.print(" ");
+        }
+            for (int col = 1; col < starCount; col++) {
+                System.out.print("* ");
+            }
+        System.out.println("*");
     }
 }
