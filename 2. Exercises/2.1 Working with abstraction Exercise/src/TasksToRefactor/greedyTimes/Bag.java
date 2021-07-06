@@ -1,18 +1,19 @@
 package TasksToRefactor.greedyTimes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Bag {
     private long capacity;
-    private Gold gold;
-    private Gem gem;
-    private Currency currency;
+    private List<Gem> gems;
+    private List<Currency> currency;
     private long totalAmount;
 
 
     public Bag(long bagCapacity) {
         this.capacity = bagCapacity;
-        this.gold = new Gold();
-        this.gem = new Gem();
-        this.currency = new Currency();
+        this.gems = new ArrayList<>();
+        this.currency = new ArrayList<>();
     }
 
     public long getCapacity() {
