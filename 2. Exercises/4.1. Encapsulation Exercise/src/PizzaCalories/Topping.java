@@ -16,21 +16,24 @@ public class Topping {
             case "Cheese":
             case "Sauce":
                 this.toppingType = toppingType;
+                break;
             default:
-                throw new IllegalArgumentException(String.format("Cannot place %s on top of your pizza.", toppingType));
+                String message = String.format("Cannot place %s on top of your pizza.", toppingType);
+                throw new IllegalArgumentException(message);
         }
     }
 
     private void setWeight(double weight) {
-        if (weight < 1 || weight > 50) {
-            throw new IllegalArgumentException(String.format("%s weight should be in the range [1..50].", this.toppingType));
+        if (weight >= 1 && weight <= 50) {
+            this.weight = weight;
+        } else {
+            String message = String.format("%s weight should be in the range [1..50].", this.toppingType);
+            throw new IllegalArgumentException(message);
         }
-        this.weight = weight;
-
     }
 
     public double calculateCalories() {
-        double value;
+        double value = 0;
         switch (this.toppingType) {
             case "Meat":
                 value = 1.2;
@@ -44,9 +47,7 @@ public class Topping {
             case "Sauce":
                 value = 0.9;
                 break;
-            default:
-                throw new ArithmeticException();
         }
-        return (2 + weight) * value;
+        return (2 * this.weight) * value;
     }
 }

@@ -12,10 +12,11 @@ public class Dough {
     }
 
     private void setWeight(double weight) {
-        if (weight < 1 || weight > 200) {
+        if (weight >= 1 && weight <= 200) {
+            this.weight = weight;
+        } else {
             throw new IllegalArgumentException("Dough weight should be in the range [1..200].");
         }
-        this.weight = weight;
     }
 
     private void setFlourType(String flourType) {
@@ -43,8 +44,8 @@ public class Dough {
     }
 
     public double calculateCalories() {
-        double flourType;
-        double backingTechnique;
+        double flourType = 0;
+        double backingTechnique = 0;
         switch (this.bakingTechnique) {
             case "Crispy":
                 backingTechnique = 0.9;
@@ -55,8 +56,6 @@ public class Dough {
             case "Homemade":
                 backingTechnique = 1.0;
                 break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + this.bakingTechnique);
         }
 
         switch (this.flourType) {
@@ -66,9 +65,7 @@ public class Dough {
             case "Wholegrain":
                 flourType = 1.0;
                 break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + this.bakingTechnique);
         }
-        return (2 * weight) * flourType * backingTechnique;
+        return (2 * this.weight) * flourType * backingTechnique;
     }
 }
