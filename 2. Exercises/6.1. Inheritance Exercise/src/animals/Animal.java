@@ -2,10 +2,10 @@ package animals;
 
 public class Animal {
     private String name;
-    private String age;
+    private int age;
     private String gender;
 
-    public Animal(String name, String age, String gender) {
+    public Animal(String name, int age, String gender) {
         this.setName(name);
         this.setAge(age);
         this.setGender(gender);
@@ -23,18 +23,16 @@ public class Animal {
         }
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
-        if (age.trim().length() <= 0) {
-            throw new IllegalArgumentException("Invalid input!");
-
-        } else if (Integer.parseInt(age) < 0) {
+    public void setAge(int age) {
+        if (age >= 0) {
+            this.age = age;
+        } else {
             throw new IllegalArgumentException("Invalid input!");
         }
-        this.age = age;
     }
 
     public String getGender() {
@@ -55,7 +53,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return String.format("%s%n%s %s %s%n%s",
+        return String.format("%s%n%s %d %s%n%s",
                 getClass().getSimpleName(), this.name, this.age,
                 this.getGender(), produceSound()).trim();
     }

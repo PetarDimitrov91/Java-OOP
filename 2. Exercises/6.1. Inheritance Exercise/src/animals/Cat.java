@@ -1,7 +1,7 @@
 package animals;
 
 public class Cat extends Animal {
-    public Cat(String name, String age, String gender) {
+    public Cat(String name, int age, String gender) {
         super(name, age, gender);
     }
 

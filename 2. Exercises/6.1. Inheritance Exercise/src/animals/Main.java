@@ -15,6 +15,10 @@ public class Main {
         while (!animalType.equals("Beast!")) {
 
             String[] commandData = console.nextLine().split(" ");
+            if (commandData[1].equals("")) {
+                System.out.println("Invalid input!");
+                continue;
+            }
 
             try {
                 Animal animal = createAnimal(animalType, commandData);
@@ -22,6 +26,7 @@ public class Main {
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
+
             animalType = console.nextLine();
         }
 
@@ -32,7 +37,7 @@ public class Main {
 
     private static Animal createAnimal(String animalType, String[] commandData) {
         String animalName = commandData[0];
-        String animalAge = commandData[1];
+        int animalAge = Integer.parseInt(commandData[1]);
         String gender = commandData[2];
 
         switch (animalType) {
