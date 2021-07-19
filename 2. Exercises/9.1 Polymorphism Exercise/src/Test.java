@@ -5,7 +5,7 @@ public class Test {
 
         DecimalFormat decimalFormat = new DecimalFormat("#.#####");
 
-        double d = 15.001;
+        double d = 15.00001;
 
         System.out.println(decimalFormat.format(d));
     }
