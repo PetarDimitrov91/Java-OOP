@@ -9,6 +9,7 @@ public class AxeTest {
     private static final int AXE_DURABILITY = 1;
     private static final int DUMMY_HEALTH = 100;
     private static final int DUMMY_GIVEN_EXPERIENCE = 100;
+    private static final int EXPECTED_DURABILITY = 0;
 
     private Axe axe;
     private Dummy dummy;
@@ -26,7 +27,7 @@ public class AxeTest {
     @Test
     public void testAxeLosesDurabilityAfterAttack() {
         axe.attack(dummy);
-        Assert.assertEquals(0, axe.getDurabilityPoints());
+        Assert.assertEquals(EXPECTED_DURABILITY, axe.getDurabilityPoints());
     }
 
     @Test(expected = IllegalStateException.class)
