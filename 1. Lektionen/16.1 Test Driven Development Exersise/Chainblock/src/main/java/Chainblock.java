@@ -1,4 +1,4 @@
-public interface ChainBlock extends Iterable<Transaction> {
+public interface Chainblock extends Iterable<Transaction> {
 
     int getCount();
 
