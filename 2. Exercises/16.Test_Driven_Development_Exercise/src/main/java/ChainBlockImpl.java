@@ -1,4 +1,7 @@
 import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class ChainBlockImpl implements ChainBlock {
@@ -61,26 +64,47 @@ public class ChainBlockImpl implements ChainBlock {
 
     @Override
     public Iterable<Transaction> getByTransactionStatus(TransactionStatus status) {
-        return records.values()
+        List<Transaction> collect = records.values()
                 .stream()
                 .filter(e -> e.getStatus().equals(status))
                 .sorted(Comparator.comparingDouble(Transaction::getAmount).reversed())
                 .collect(Collectors.toList());
+        if (collect.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return collect;
+
     }
 
     @Override
     public Iterable<String> getAllSendersWithTransactionStatus(TransactionStatus status) {
-        return null;
+        Function<Transaction, String> function = Transaction::getFrom;
+        List<String> collect = getData(status, function);
+        if (collect.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return collect;
     }
 
     @Override
     public Iterable<String> getAllReceiversWithTransactionStatus(TransactionStatus status) {
-        return null;
+        Function<Transaction, String> function = Transaction::getTo;
+        List<String> collect = getData(status, function);
+        if (collect.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return collect;
     }
+
 
     @Override
     public Iterable<Transaction> getAllOrderedByAmountDescendingThenById() {
-        return null;
+        return records.values()
+                .stream()
+                .sorted(Comparator.comparingDouble(Transaction::getAmount)
+                        .reversed()
+                        .thenComparing(Transaction::getId))
+                .collect(Collectors.toList());
     }
 
     @Override
@@ -117,4 +141,15 @@ public class ChainBlockImpl implements ChainBlock {
     public Iterator<Transaction> iterator() {
         return null;
     }
+
+    private List<String> getData(TransactionStatus status, Function<Transaction, String> function) {
+        return records.values()
+                .stream()
+                .filter(e -> e.getStatus().equals(status))
+                .sorted(Comparator.comparingDouble(Transaction::getAmount)
+                        .reversed())
+                .map(function)
+                .collect(Collectors.toList());
+    }
+
 }
