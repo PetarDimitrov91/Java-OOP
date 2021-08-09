@@ -1,22 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b0b709a-99d9-4d98-a0a7-6c15b3583e83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/blueOrigin/SpaceshipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blueOrigin/SpaceshipTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectId" id="1wRtt8rG1Q85fUfCUJ5y7ss9Fnq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager" selected="JUnit.SpaceshipTests">
+    <configuration name="SpaceshipTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlueOrigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTests.testAddMethod3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlueOrigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testAddMethod3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTests.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlueOrigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTests.testSetCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlueOrigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testSetCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTests.testSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlueOrigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blueOrigin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
+      <option name="METHOD_NAME" value="testSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpaceshipTests" />
+        <item itemvalue="JUnit.SpaceshipTests.testSetName" />
+        <item itemvalue="JUnit.SpaceshipTests.testSetCapacity" />
+        <item itemvalue="JUnit.SpaceshipTests.testRemove" />
+        <item itemvalue="JUnit.SpaceshipTests.testAddMethod3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b0b709a-99d9-4d98-a0a7-6c15b3583e83" name="Changes" comment="" />
+      <created>1628433440899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628433440899</updated>
+      <workItem from="1628433442160" duration="1999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/blueOrigin/SpaceshipTests.java</url>
+          <line>33</line>
+          <properties class="blueOrigin.SpaceshipTests" method="testAddMethod3">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/blueOrigin/SpaceshipTests.java</url>
+          <line>57</line>
+          <properties class="blueOrigin.SpaceshipTests" method="testSetName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BlueOrigin$SpaceshipTests.ic" NAME="SpaceshipTests Coverage Results" MODIFIED="1628435410387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>blueOrigin.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
