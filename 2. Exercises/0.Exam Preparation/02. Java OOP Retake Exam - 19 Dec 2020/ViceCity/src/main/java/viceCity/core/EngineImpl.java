@@ -46,22 +46,21 @@ public class EngineImpl implements Engine {
 
         switch (command) {
             case AddPlayer:
-
+                result = controller.addPlayer(data[0]);
                 break;
             case AddGun:
-
+                result = controller.addGun(data[0], data[1]);
                 break;
             case AddGunToPlayer:
-
+                result = controller.addGunToPlayer(data[0]);
                 break;
             case Fight:
-
+                result = controller.fight();
                 break;
             case Exit:
                 result = Command.Exit.name();
                 break;
         }
-
         return result;
     }
 }

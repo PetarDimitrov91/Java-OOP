@@ -5,6 +5,7 @@ import viceCity.repositories.interfaces.Repository;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class GunRepository implements Repository<Gun> {
 
