@@ -9,9 +9,9 @@ public abstract class BaseFood implements BakedFood {
     private double price;
 
     protected BaseFood(String name, double portion, double price) {
-        this.name = name;
-        this.portion = portion;
-        this.price = price;
+     //   this.name = name;
+     //   this.portion = portion;
+     //   this.price = price;
     }
 
 

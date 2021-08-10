@@ -1,6 +1,5 @@
 package bakery.repositories;
 
-import bakery.entities.bakedFoods.interfaces.BakedFood;
 import bakery.entities.drinks.interfaces.Drink;
 import bakery.repositories.interfaces.DrinkRepository;
 
@@ -13,6 +12,10 @@ public class DrinkRepositoryImpl implements DrinkRepository<Drink> {
 
     public DrinkRepositoryImpl() {
         this.models = new ArrayList<>();
+    }
+
+    public Drink getByName() {
+        return null;
     }
 
     @Override

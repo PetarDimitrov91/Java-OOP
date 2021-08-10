@@ -9,7 +9,7 @@ public abstract class BaseDrink implements Drink {
     private double price;
     private String brand;
 
-    public BaseDrink(String name, double portion, double price, String brand) {
+    protected BaseDrink(String name, double portion, double price, String brand) {
         this.name = name;
         this.portion = portion;
         this.price = price;

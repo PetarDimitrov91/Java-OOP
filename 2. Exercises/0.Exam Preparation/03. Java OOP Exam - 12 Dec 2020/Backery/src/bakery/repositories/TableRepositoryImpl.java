@@ -1,6 +1,5 @@
 package bakery.repositories;
 
-import bakery.entities.bakedFoods.interfaces.BakedFood;
 import bakery.entities.tables.interfaces.Table;
 import bakery.repositories.interfaces.TableRepository;
 
