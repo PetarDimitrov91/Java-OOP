@@ -55,6 +55,7 @@ public class ControllerImpl implements Controller {
             return GUN_QUEUE_IS_EMPTY;
         }
         Gun gun = gunRepository.getModels().stream().findFirst().orElse(null);
+        gunRepository.remove(gun);
         if (name.equals("Vercetti")) {
             mainPlayer.getGunRepository().add(gun);
             assert gun != null;
@@ -95,14 +96,13 @@ public class ControllerImpl implements Controller {
             if (civilPlayer.getLifePoints() > 0) {
                 civilPLayersLeft++;
             } else {
-                playersShot--;
+                playersShot++;
             }
         }
 
-
         StringBuilder sb = new StringBuilder();
         sb.append(FIGHT_HAPPENED).append(System.lineSeparator());
-        sb.append(String.format(MAIN_PLAYER_LIVE_POINTS_MESSAGE, mainPlayer.getLifePoints()));
+        sb.append(String.format(MAIN_PLAYER_LIVE_POINTS_MESSAGE, mainPlayer.getLifePoints())).append(System.lineSeparator());
         sb.append(String.format(MAIN_PLAYER_KILLED_CIVIL_PLAYERS_MESSAGE, playersShot)).append(System.lineSeparator());
         sb.append(String.format(CIVIL_PLAYERS_LEFT_MESSAGE, civilPLayersLeft));
         return sb.toString().trim();
