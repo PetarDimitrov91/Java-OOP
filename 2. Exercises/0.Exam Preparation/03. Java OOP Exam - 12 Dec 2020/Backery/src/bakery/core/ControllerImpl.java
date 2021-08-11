@@ -10,11 +10,15 @@ import bakery.repositories.interfaces.*;
 
 public class ControllerImpl implements Controller {
 
+    private Repository<BakedFood> foodRepository;
+    private Repository<Drink> drinkRepository;
+    private Repository<Table> tableRepository;
 
     public ControllerImpl(FoodRepository<BakedFood> foodRepository, DrinkRepository<Drink> drinkRepository, TableRepository<Table> tableRepository) {
-
+        this.foodRepository = foodRepository;
+        this.drinkRepository = drinkRepository;
+        this.tableRepository = tableRepository;
     }
-
 
     @Override
     public String addFood(String type, String name, double price) {

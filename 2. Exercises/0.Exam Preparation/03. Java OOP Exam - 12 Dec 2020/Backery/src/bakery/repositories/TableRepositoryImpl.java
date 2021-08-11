@@ -3,24 +3,9 @@ package bakery.repositories;
 import bakery.entities.tables.interfaces.Table;
 import bakery.repositories.interfaces.TableRepository;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
-public class TableRepositoryImpl implements TableRepository<Table> {
-
-    private Collection<Table> models;
-
+public class TableRepositoryImpl extends RepositoryImpl<Table> implements TableRepository<Table> {
     public TableRepositoryImpl() {
-        this.models = new ArrayList<>();
-    }
-    @Override
-    public Collection<Table> getAll() {
-        return null;
-    }
-
-    @Override
-    public void add(Table table) {
-
+        super();
     }
 
     @Override

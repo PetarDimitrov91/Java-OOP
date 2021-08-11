@@ -9,11 +9,22 @@ public abstract class BaseFood implements BakedFood {
     private double price;
 
     protected BaseFood(String name, double portion, double price) {
-     //   this.name = name;
-     //   this.portion = portion;
-     //   this.price = price;
+        setName(name);
+        setPortion(portion);
+        setPrice(price);
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPortion(double portion) {
+        this.portion = portion;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
     @Override
     public String getName() {

@@ -3,15 +3,9 @@ package bakery.repositories;
 import bakery.entities.bakedFoods.interfaces.BakedFood;
 import bakery.repositories.interfaces.FoodRepository;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
-public class FoodRepositoryImpl implements FoodRepository<BakedFood> {
-
-    private Collection<BakedFood> models;
-
+public class FoodRepositoryImpl extends RepositoryImpl<BakedFood> implements FoodRepository<BakedFood> {
     public FoodRepositoryImpl() {
-        this.models = new ArrayList<>();
+        super();
     }
 
     @Override
@@ -19,13 +13,4 @@ public class FoodRepositoryImpl implements FoodRepository<BakedFood> {
         return null;
     }
 
-    @Override
-    public Collection<BakedFood> getAll() {
-        return null;
-    }
-
-    @Override
-    public void add(BakedFood bakedFood) {
-
-    }
 }
