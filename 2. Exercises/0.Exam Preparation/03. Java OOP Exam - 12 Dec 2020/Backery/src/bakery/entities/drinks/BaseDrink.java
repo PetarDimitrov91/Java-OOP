@@ -5,11 +5,11 @@ import bakery.entities.drinks.interfaces.Drink;
 public abstract class BaseDrink implements Drink {
 
     private String name;
-    private double portion;
+    private int portion;
     private double price;
     private String brand;
 
-    protected BaseDrink(String name, double portion, double price, String brand) {
+    protected BaseDrink(String name, int portion, double price, String brand) {
         setName(name);
         setPortion(portion);
         setPrice(price);
@@ -20,7 +20,7 @@ public abstract class BaseDrink implements Drink {
         this.name = name;
     }
 
-    public void setPortion(double portion) {
+    public void setPortion(int portion) {
         this.portion = portion;
     }
 

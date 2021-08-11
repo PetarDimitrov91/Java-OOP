@@ -8,7 +8,7 @@ public abstract class RepositoryImpl<T> implements Repository<T> {
 
     private Collection<T> models;
 
-    protected RepositoryImpl() {
+    public RepositoryImpl() {
 
     }
 
@@ -18,7 +18,7 @@ public abstract class RepositoryImpl<T> implements Repository<T> {
     }
 
     @Override
-    public void add(T t) {
+    public void add(T model) {
 
     }
 }

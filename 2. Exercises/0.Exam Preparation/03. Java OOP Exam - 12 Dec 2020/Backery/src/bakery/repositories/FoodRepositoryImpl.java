@@ -3,13 +3,10 @@ package bakery.repositories;
 import bakery.entities.bakedFoods.interfaces.BakedFood;
 import bakery.repositories.interfaces.FoodRepository;
 
-public class FoodRepositoryImpl extends RepositoryImpl<BakedFood> implements FoodRepository<BakedFood> {
-    public FoodRepositoryImpl() {
-        super();
-    }
+public class FoodRepositoryImpl<bakedFood> extends RepositoryImpl<bakedFood> implements FoodRepository<bakedFood> {
 
     @Override
-    public BakedFood getByName(String name) {
+    public bakedFood getByName(String name) {
         return null;
     }
 
