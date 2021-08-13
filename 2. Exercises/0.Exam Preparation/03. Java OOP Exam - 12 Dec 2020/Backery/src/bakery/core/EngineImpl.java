@@ -36,7 +36,6 @@ public class EngineImpl implements Engine {
 
             this.writer.writeLine(result);
         }
-
     }
 
     private String processInput() throws IOException {
@@ -86,8 +85,6 @@ public class EngineImpl implements Engine {
                 result = Commands.END.name();
                 break;
         }
-
-
         return result.trim();
     }
 

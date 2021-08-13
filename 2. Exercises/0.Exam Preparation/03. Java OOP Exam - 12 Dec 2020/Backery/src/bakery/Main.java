@@ -1,10 +1,17 @@
 package bakery;
 
+import bakery.core.ControllerImpl;
+import bakery.core.EngineImpl;
 import bakery.core.interfaces.Controller;
 import bakery.entities.bakedFoods.interfaces.BakedFood;
 import bakery.entities.drinks.interfaces.Drink;
 import bakery.entities.tables.interfaces.Table;
 
+import bakery.io.ConsoleReader;
+import bakery.io.ConsoleWriter;
+import bakery.repositories.DrinkRepositoryImpl;
+import bakery.repositories.FoodRepositoryImpl;
+import bakery.repositories.TableRepositoryImpl;
 import bakery.repositories.interfaces.*;
 
 public class Main {
@@ -12,16 +19,16 @@ public class Main {
 
         String a = " ";
         int a1 = a.length();
-        FoodRepository<BakedFood> foodRepository; // TODO:  new FoodRepositoryImpl<>();
-        DrinkRepository<Drink> drinkRepository;  // TODO:  new DrinkRepositoryImpl<>();
-        TableRepository<Table> tableRepository; // TODO:  new TableRepositoryImpl<>();
+        FoodRepository<BakedFood> foodRepository = new FoodRepositoryImpl<>();
+        DrinkRepository<Drink> drinkRepository = new DrinkRepositoryImpl<>();
+        TableRepository<Table> tableRepository = new TableRepositoryImpl<>();
 
-        Controller controller; // TODO: new ControllerImpl(foodRepository, drinkRepository, tableRepository);
+        Controller controller = new ControllerImpl(foodRepository, drinkRepository, tableRepository); // TODO: new ControllerImpl(foodRepository, drinkRepository, tableRepository);
 
-        // TODO:OPTIONAL
-//        ConsoleReader reader = new ConsoleReader();
-//        ConsoleWriter writer = new ConsoleWriter();
-//        EngineImpl engine = new EngineImpl(reader, writer, controller);
-//        engine.run();
+
+        ConsoleReader reader = new ConsoleReader();
+        ConsoleWriter writer = new ConsoleWriter();
+        EngineImpl engine = new EngineImpl(reader, writer, controller);
+        engine.run();
     }
 }

@@ -1,12 +1,16 @@
 package bakery.repositories;
 
+import bakery.entities.drinks.interfaces.Drink;
 import bakery.repositories.interfaces.DrinkRepository;
 
-public class DrinkRepositoryImpl<Drink> extends RepositoryImpl<Drink> implements DrinkRepository<Drink> {
+public class DrinkRepositoryImpl<BaseDrink> extends RepositoryImpl<Drink> implements DrinkRepository<Drink> {
 
     @Override
     public Drink getByNameAndBrand(String drinkName, String drinkBrand) {
-        return null;
+        return getAll().stream()
+                .filter(e -> e.getName().equals(drinkName) && e.getBrand().equals(drinkBrand))
+                .findFirst()
+                .orElse(null);
     }
 
 

@@ -6,4 +6,9 @@ public class OutsideTable extends BaseTable{
     public OutsideTable(int tableNumber, int capacity) {
         super(tableNumber, capacity, PRICE_PER_PERSON);
     }
+
+    @Override
+    protected String getType() {
+        return "OutsideTable";
+    }
 }
