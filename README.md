@@ -1,1 +1,1 @@
-## This is my Java OOP module, including all lections and exercises. 
+## This is my Java OOP module, including all lectures and exercises. 
