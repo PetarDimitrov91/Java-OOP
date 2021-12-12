@@ -6,6 +6,9 @@ import restaurant.entities.drinks.interfaces.Beverages;
 import restaurant.entities.tables.interfaces.Table;
 import restaurant.repositories.interfaces.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ControllerImpl implements Controller {
 
 
@@ -15,7 +18,7 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String addHealthyFood(String type, double price, String name) {
-        //TODO:
+        List<String> a = new ArrayList<String>();
         return null;
     }
 
