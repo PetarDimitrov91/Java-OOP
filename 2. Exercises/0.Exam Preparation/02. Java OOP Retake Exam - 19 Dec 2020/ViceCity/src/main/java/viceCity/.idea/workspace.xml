@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e40456c0-0913-463c-92a2-3a70bcde83b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viceCity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/SingletonContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/SingletonDataContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../0. Exam/restaurant/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../0. Exam/restaurant/restaurant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../01. Exam18.04.2021/HeroRepository/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../01. Exam18.04.2021/HeroRepository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../01. Exam18.04.2021/HeroRepository/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../16.Test_Driven_Development_Exercise/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../17.Desing_Pattern/src/main/java/Singleton/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24vfkkuWRxkeJ5otJQswJyvfpev" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e40456c0-0913-463c-92a2-3a70bcde83b7" name="Changes" comment="" />
+      <created>1644516126314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644516126314</updated>
+      <workItem from="1644516127458" duration="3755000" />
+      <workItem from="1644525847978" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -5,38 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3acba3d8-a5f0-40ee-aece-a5ba76a6a63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeroRepository.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/heroRepository/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/heroRepository/HeroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/heroRepository/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/heroRepository.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/heroRepository/HeroRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/heroRepository/Hero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/heroRepository/HeroRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/heroRepository/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/heroRepository/HeroRepositoryTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/astronauts/BaseAstronaut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/astronauts/Biologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/astronauts/Geodesist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/astronauts/Meteorologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/bags/Backpack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/mission/MissionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/models/planets/PlanetImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/repositories/AstronautRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpaceStation/src/main/java/spaceStation/repositories/PlanetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1. Lektionen/0. Exam Prepartion/01. High Quality Structure_Skeleton (1).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../1. Lektionen/0. Exam Prepartion/03. Unit Testing_ Skeleton (1).zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02. Java OOP Retake Exam - 19 Dec 2020/ViceCity/src/main/java/viceCity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02. Java OOP Retake Exam - 19 Dec 2020/ViceCity/src/main/java/viceCity/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02. Java OOP Retake Exam - 19 Dec 2020/ViceCity/src/main/java/viceCity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02. Java OOP Retake Exam - 19 Dec 2020/ViceCity/src/main/java/viceCity/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02. Java OOP Retake Exam - 19 Dec 2020/ViceCity/src/main/java/viceCity/viceCity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/SingletonContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/out/production/Singleton/Singleton/SingletonDataContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0. Exam/restaurant/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0. Exam/restaurant/restaurant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../16.Test_Driven_Development_Exercise/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../17.Desing_Pattern/src/main/java/Singleton/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +49,9 @@
         <option value="$PROJECT_DIR$/src/test/java/heroRepository/HeroRepositoryTests.java" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
@@ -267,6 +262,8 @@
       <workItem from="1565672905540" duration="404000" />
       <workItem from="1565806144521" duration="46000" />
       <workItem from="1628335554277" duration="1560000" />
+      <workItem from="1644515965430" duration="46000" />
+      <workItem from="1644527418847" duration="18000" />
     </task>
     <servers />
   </component>
